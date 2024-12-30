@@ -1,0 +1,39 @@
+.keypad {
+  margin-top: 20px; /* Space above the keypad */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.keyRow {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px; /* Space between rows */
+}
+
+.key {
+  margin: 5px; /* Space between keys */
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.green {
+  background-color: #7ca96b; /* Correct letter in the correct position */
+}
+
+.yellow {
+  background-color: #c3b464; /* Correct letter but in the wrong position */
+}
+
+.darkGray {
+  background-color: #797c7e; /* Letter not in the word */
+}
+
+.lightGray {
+  background-color: lightgray; /* Default color for keys */
+}

@@ -1,0 +1,58 @@
+.gameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.tile {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+  border: 2px solid #d3d3d3;
+  font-size: 20px;
+  background-color: white;
+}
+
+.input {
+  width: 50px;
+  padding: 5px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.submitButton {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.correct {
+  background-color: green; 
+  color: white;
+  border-color: darkgreen; 
+}
+  
+.present {
+  background-color: yellow;
+  color: black;
+  border-color: goldenrod; 
+}
+  
+.absent {
+  background-color: grey; 
+  color: white;
+  border-color: darkgrey; 
+}
